@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolf", "Wolf\Wolf.csproj", "{893648D5-0BA7-4270-9B31-9C74060315D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolf.Testing", "Wolf.Testing\Wolf.Testing.csproj", "{3A284529-5C69-4648-9B75-527D89BD7318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{893648D5-0BA7-4270-9B31-9C74060315D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893648D5-0BA7-4270-9B31-9C74060315D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893648D5-0BA7-4270-9B31-9C74060315D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893648D5-0BA7-4270-9B31-9C74060315D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A284529-5C69-4648-9B75-527D89BD7318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A284529-5C69-4648-9B75-527D89BD7318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A284529-5C69-4648-9B75-527D89BD7318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A284529-5C69-4648-9B75-527D89BD7318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

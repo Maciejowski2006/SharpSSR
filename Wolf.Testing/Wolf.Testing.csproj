@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Wolf\Wolf.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ContentWithTargetPath Include="partials\**">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <TargetPath>partials\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>
+    <ItemGroup>
+        <ContentWithTargetPath Include="templates\**">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <TargetPath>templates\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>
+    <ItemGroup>
+        <ContentWithTargetPath Include="styles\**">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <TargetPath>styles\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+        </ContentWithTargetPath>
+    </ItemGroup>
+
+</Project>
