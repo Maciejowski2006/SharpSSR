@@ -1,4 +1,5 @@
 ﻿using SAPI;
+using Wolf.StaticContent;
 
 namespace Wolf
 {
@@ -7,7 +8,7 @@ namespace Wolf
 		private static Server sapi = new();
 		protected static void Start()
 		{
-			sapi.MountEndpoint(new StaticContent());
+			sapi.MountEndpoint(new Styles());
 			sapi.Start();
 		}
 		

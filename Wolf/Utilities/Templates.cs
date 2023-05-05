@@ -1,7 +1,5 @@
-﻿using System.Collections.ObjectModel;
-using System.Net;
+﻿using System.Net;
 using HandlebarsDotNet;
-using SAPI.Utilities;
 
 namespace Wolf.Utilities.Templates
 {
@@ -10,8 +8,8 @@ namespace Wolf.Utilities.Templates
 		public static void RenderTemplate(in IRoute route, object data, ref HttpListenerResponse response)
 		{
 			// Directories
-			string templates = Path.Combine(Environment.CurrentDirectory, "templates");
-			string partials = Path.Combine(Environment.CurrentDirectory, "partials");
+			string templates = Path.Combine(Environment.CurrentDirectory, "src", "routes");
+			string partials = Path.Combine(Environment.CurrentDirectory, "src", "partials");
 			string mainFile = Path.Combine(templates, route.template);
 			
 			string content = File.ReadAllText(mainFile);

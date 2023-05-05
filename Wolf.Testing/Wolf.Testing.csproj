@@ -12,21 +12,9 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ContentWithTargetPath Include="partials\**">
+        <ContentWithTargetPath Include="src\**">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-            <TargetPath>partials\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
-        </ContentWithTargetPath>
-    </ItemGroup>
-    <ItemGroup>
-        <ContentWithTargetPath Include="templates\**">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-            <TargetPath>templates\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
-        </ContentWithTargetPath>
-    </ItemGroup>
-    <ItemGroup>
-        <ContentWithTargetPath Include="styles\**">
-            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-            <TargetPath>styles\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+            <TargetPath>src\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
         </ContentWithTargetPath>
     </ItemGroup>
 

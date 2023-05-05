@@ -6,7 +6,7 @@ namespace WolfTesting
 {
 	public class WolfServerTesting : WolfServer
 	{
-		public static void Main(string[] args)
+		public static void Main()
 		{
 			MountRoute(new Index());
 			Start();
