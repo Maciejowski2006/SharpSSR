@@ -1,10 +1,10 @@
 ﻿
-using Wolf;
-using Index = WolfTesting.Routes.Index;
+using SharpSSR;
+using Index = SharpSSRTesting.Routes.Index;
 
 namespace WolfTesting
 {
-	public class WolfServerTesting : WolfServer
+	public class WolfServerTesting : SharpSsrServer
 	{
 		public static void Main()
 		{

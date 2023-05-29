@@ -1,7 +1,8 @@
 ﻿using System.Net;
 using HandlebarsDotNet;
+using Html = SAPI.LLAPI.Utilities.Html.Html;
 
-namespace Wolf.Utilities.Templates
+namespace SharpSSR.Utilities.Templates
 {
 	public class Templates
 	{
@@ -27,7 +28,7 @@ namespace Wolf.Utilities.Templates
 			HandlebarsTemplate<object, object>? template = Handlebars.Compile(content);
 			string result = template(data);
 			
-			SAPI.Utilities.Utilities.HtmlResponse(result, ref response);
+			Html.HtmlResponse(result, ref response);
 		}
 	}
 }

@@ -1,9 +1,9 @@
 ﻿using SAPI;
-using Wolf.StaticContent;
+using SharpSSR.StaticContent;
 
-namespace Wolf
+namespace SharpSSR
 {
-	public class WolfServer
+	public class SharpSsrServer
 	{
 		private static Server sapi = new();
 		protected static void Start()

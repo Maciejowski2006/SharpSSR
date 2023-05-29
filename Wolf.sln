@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolf", "Wolf\Wolf.csproj", "{893648D5-0BA7-4270-9B31-9C74060315D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSR", "SharpSSR\SharpSSR.csproj", "{893648D5-0BA7-4270-9B31-9C74060315D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolf.Testing", "Wolf.Testing\Wolf.Testing.csproj", "{3A284529-5C69-4648-9B75-527D89BD7318}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSSR.Testing", "SharpSSR.Testing\SharpSSR.Testing.csproj", "{3A284529-5C69-4648-9B75-527D89BD7318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

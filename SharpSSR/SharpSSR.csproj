@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>SharpSSR</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>SharpSSR</Title>
+        <Authors>Maciejowski2006</Authors>
+        <Description>SharpSSR is a web framework for building Server Side Rendered apps.</Description>
+        <Copyright>Copyright © Maciejowski 2023</Copyright>
+        <PackageLicenseUrl>https://github.com/Maciejowski2006/SharpSSR/blob/master/LICENSE.md</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Maciejowski2006/SharpSSR</RepositoryUrl>
+        <AssemblyName>SharpSSR</AssemblyName>
+        <PackageId>SharpSSR</PackageId>
+        <Version>0.1.0</Version>
+        <Product>SharpSSR</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Handlebars.Net" Version="2.1.4" />
+      <PackageReference Include="SAPI" Version="9.1.0" />
+    </ItemGroup>
+
+</Project>

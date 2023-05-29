@@ -1,8 +1,8 @@
 ﻿using System.Net;
 using SAPI.Endpoints;
-using _StaticContent = SAPI.Utilities.StaticContent.StaticContent;
+using _StaticContent = SAPI.Utilities.StaticContent;
 
-namespace Wolf.StaticContent
+namespace SharpSSR.StaticContent
 {
 	public class Styles : IEndpoint
 	{

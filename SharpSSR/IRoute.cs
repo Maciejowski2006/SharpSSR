@@ -1,7 +1,6 @@
-﻿using System.Net;
-using SAPI.Endpoints;
+﻿using SAPI.Endpoints;
 
-namespace Wolf
+namespace SharpSSR
 {
 	public interface IRoute : IEndpoint
 	{

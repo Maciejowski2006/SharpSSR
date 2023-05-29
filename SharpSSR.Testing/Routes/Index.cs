@@ -1,9 +1,9 @@
 ﻿using System.Net;
 using SAPI.Endpoints;
-using Wolf;
-using Wolf.Utilities.Templates;
+using SharpSSR;
+using SharpSSR.Utilities.Templates;
 
-namespace WolfTesting.Routes
+namespace SharpSSRTesting.Routes
 {
 	public class Index : IRoute
 	{
@@ -18,6 +18,8 @@ namespace WolfTesting.Routes
 
 		public void Task(ref HttpListenerRequest request, ref HttpListenerResponse response, Dictionary<string, string> parameters)
 		{
+			
+			
 			Templates.RenderTemplate(this, new
 			{
 				h3 = "bruh",
